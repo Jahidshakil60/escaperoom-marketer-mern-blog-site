@@ -1,0 +1,40 @@
+.posts-container {
+	padding: 120px 100px 0 100px;
+}
+
+.post-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid #e0e0e0;
+	padding: 30px 0;
+}
+
+.post_img {
+	width: 100px;
+	height: 70px;
+	object-fit: cover;
+}
+
+.post__delete {
+	padding: 4px 8px;
+	border: none;
+	border-radius: 10px;
+	background: #ed6c17;
+	color: white;
+	font-weight: 550;
+	box-shadow: 0px 2px 3px #858585;
+	cursor: pointer;
+}
+
+.post__edit {
+	padding: 4px 12px;
+	border: none;
+	border-radius: 10px;
+	background: #1c8315;
+	color: white;
+	font-weight: 550;
+	box-shadow: 0px 2px 3px #858585;
+	cursor: pointer;
+	margin-left: 20px;
+}

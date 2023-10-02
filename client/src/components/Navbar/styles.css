@@ -1,0 +1,65 @@
+.nav-container {
+	background-color: #e5e5e5;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 100px;
+}
+.nav-logo {
+	display: flex;
+	align-items: center;
+}
+
+.nav-logo .logo-img {
+	width: 100%;
+}
+
+.nav-items {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+.add_btn {
+	background: none;
+	padding: 5px 15px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	/* box-shadow: 0px 2px 3px #b5b5b5; */
+	font-size: 16px;
+	font-weight: 600;
+	/* color: white; */
+}
+
+.add_btn:hover {
+	color: #ff492c;
+}
+
+.nav-items .Logout__btn {
+	padding: 5px 15px;
+	border-radius: 10px;
+	border: none;
+	cursor: pointer;
+	box-shadow: 0px 2px 1px #b5b5b5;
+	font-size: 16px;
+	font-weight: 600;
+	color: white;
+	background: #fa9e9e;
+}
+
+.avatar {
+	background: #6d36a9;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.user__name {
+	font-size: 20px;
+	font-weight: 600;
+}
